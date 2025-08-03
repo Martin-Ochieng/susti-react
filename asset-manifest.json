@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/susti-react/static/js/main.5cc91ac2.js",
+    "static/media/illustration-reset.jpg": "/susti-react/static/media/illustration-reset.c5f36c0c2262b9ad6165.jpg",
+    "static/media/bg-presentation.jpg": "/susti-react/static/media/bg-presentation.708352cba1017ed3ad76.jpg",
+    "static/media/bg-about-us.jpg": "/susti-react/static/media/bg-about-us.cf9a123e2a3d371d53da.jpg",
+    "static/media/susti-card.jpg": "/susti-react/static/media/susti-card.bbcb6a63e0661d37331c.jpg",
+    "static/media/bruce-mars.jpg": "/susti-react/static/media/bruce-mars.8a606c4a6dab54c9ceff.jpg",
+    "static/media/team-5.jpg": "/susti-react/static/media/team-5.d59ab7b9f95f1169cf83.jpg",
+    "static/media/ivana-square.jpg": "/susti-react/static/media/ivana-square.f7bc23b269d1d2509c82.jpg",
+    "static/media/ivana-squares.jpg": "/susti-react/static/media/ivana-squares.3c555b856b04c2ab921b.jpg",
+    "static/media/logo-pinterest.svg": "/susti-react/static/media/logo-pinterest.844709031a3c1266979e933c371e043a.svg",
+    "static/media/logo-vodafone.svg": "/susti-react/static/media/logo-vodafone.b3e8486c0cac220bc3a31c9eab049b21.svg",
+    "static/media/logo-spotify.svg": "/susti-react/static/media/logo-spotify.7e255dc67938d13ff97cc8f16812d325.svg",
+    "static/media/logo-coinbase.svg": "/susti-react/static/media/logo-coinbase.87e91c7f318f2d82f46e78469976128b.svg",
+    "static/media/logo-nasa.svg": "/susti-react/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
+    "static/media/logo-netflix.svg": "/susti-react/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
+    "index.html": "/susti-react/index.html",
+    "main.5cc91ac2.js.map": "/susti-react/static/js/main.5cc91ac2.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5cc91ac2.js"
+  ]
+}

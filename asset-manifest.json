@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/susti-react/static/js/main.5cc91ac2.js",
+    "main.js": "/susti-react/static/js/main.ac8ade13.js",
     "static/media/illustration-reset.jpg": "/susti-react/static/media/illustration-reset.c5f36c0c2262b9ad6165.jpg",
     "static/media/bg-presentation.jpg": "/susti-react/static/media/bg-presentation.708352cba1017ed3ad76.jpg",
     "static/media/bg-about-us.jpg": "/susti-react/static/media/bg-about-us.cf9a123e2a3d371d53da.jpg",
@@ -16,9 +16,9 @@
     "static/media/logo-nasa.svg": "/susti-react/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "static/media/logo-netflix.svg": "/susti-react/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
     "index.html": "/susti-react/index.html",
-    "main.5cc91ac2.js.map": "/susti-react/static/js/main.5cc91ac2.js.map"
+    "main.ac8ade13.js.map": "/susti-react/static/js/main.ac8ade13.js.map"
   },
   "entrypoints": [
-    "static/js/main.5cc91ac2.js"
+    "static/js/main.ac8ade13.js"
   ]
 }

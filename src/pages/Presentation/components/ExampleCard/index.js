@@ -24,6 +24,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 function ExampleCard({ image, name, count, pro, ...rest }) {
+  console.log(image);
   const imageTemplate = (
     <MKBox
       bgColor="white"

@@ -1,17 +1,17 @@
 /**
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
+ =========================================================
+ * Material Kit 2 React - v2.1.0
+ =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+ * Product Page: https://www.creative-tim.com/product/material-kit-react
+ * Copyright 2023 Creative Tim (https://www.creative-tim.com)
 
-Coded by www.creative-tim.com
+ Coded by www.creative-tim.com
 
  =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */
 
 import { useEffect } from "react";
 
@@ -28,6 +28,18 @@ import Presentation from "layouts/pages/presentation";
 
 // Material Kit 2 React routes
 import routes from "routes";
+
+// ✅ SafeCatchAll component to avoid intercepting /assets requests
+function SafeCatchAll() {
+  const { pathname } = useLocation();
+
+  // If it's a request for assets or other static files, do nothing
+  if (pathname.startsWith("/assets")) {
+    return null;
+  }
+
+  return <Navigate to="/presentation" replace />;
+}
 
 export default function App() {
   const { pathname } = useLocation();
@@ -57,7 +69,8 @@ export default function App() {
       <Routes>
         {getRoutes(routes)}
         <Route path="/presentation" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/presentation" />} />
+        {/* ✅ Catch-all now ignores /assets/* */}
+        <Route path="*" element={<SafeCatchAll />} />
       </Routes>
     </ThemeProvider>
   );

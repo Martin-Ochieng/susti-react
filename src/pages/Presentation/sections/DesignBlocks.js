@@ -70,13 +70,6 @@ function DesignBlocks() {
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          {/*<MKBadge*/}
-          {/*  variant="contained"*/}
-          {/*  color="info"*/}
-          {/*  badgeContent="What We DO"*/}
-          {/*  container*/}
-          {/*  sx={{ mb: 2 }}*/}
-          {/*/>*/}
           <MKTypography variant="h2" fontWeight="bold">
             What we do
           </MKTypography>

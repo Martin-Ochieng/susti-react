@@ -76,7 +76,7 @@ export default {
       All rights reserved. Copyright &copy; {date} From Martin{" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href="https://www.linkedin.com/in/martin-ochieng-a829b67b/"
         target="_blank"
         rel="noreferrer"
         variant="button"

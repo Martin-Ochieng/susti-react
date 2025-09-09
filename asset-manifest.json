@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/susti-react/static/js/main.51cf1466.js",
-    "static/media/illustration-reset.jpg": "/susti-react/static/media/illustration-reset.c5f36c0c2262b9ad6165.jpg",
+    "main.js": "/susti-react/static/js/main.e394bf64.js",
+    "static/media/susti_image_6.png": "/susti-react/static/media/susti_image_6.31f24498827e447d3672.png",
     "static/media/bg-presentation.jpg": "/susti-react/static/media/bg-presentation.708352cba1017ed3ad76.jpg",
     "static/media/bg-about-us.jpg": "/susti-react/static/media/bg-about-us.cf9a123e2a3d371d53da.jpg",
     "static/media/susti-card.jpg": "/susti-react/static/media/susti-card.bbcb6a63e0661d37331c.jpg",
@@ -11,9 +11,9 @@
     "static/media/ivana-squares.jpg": "/susti-react/static/media/ivana-squares.3c555b856b04c2ab921b.jpg",
     "index.html": "/susti-react/index.html",
     "static/media/martin.svg": "/susti-react/static/media/martin.2a6d92fc5fc44ba45bb826c04ba95dd5.svg",
-    "main.51cf1466.js.map": "/susti-react/static/js/main.51cf1466.js.map"
+    "main.e394bf64.js.map": "/susti-react/static/js/main.e394bf64.js.map"
   },
   "entrypoints": [
-    "static/js/main.51cf1466.js"
+    "static/js/main.e394bf64.js"
   ]
 }

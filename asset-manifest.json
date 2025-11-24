@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.js": "/susti-react/static/js/main.e394bf64.js",
+    "main.js": "/susti-react/static/js/main.5051aff9.js",
     "static/media/susti_image_6.png": "/susti-react/static/media/susti_image_6.31f24498827e447d3672.png",
     "static/media/bg-presentation.jpg": "/susti-react/static/media/bg-presentation.708352cba1017ed3ad76.jpg",
     "static/media/bg-about-us.jpg": "/susti-react/static/media/bg-about-us.cf9a123e2a3d371d53da.jpg",
+    "static/media/shantel.jpg": "/susti-react/static/media/shantel.0fb73d19d3aa54830fec.jpg",
+    "static/media/koech.jpg": "/susti-react/static/media/koech.0bd65be6639ca70174b3.jpg",
     "static/media/susti-card.jpg": "/susti-react/static/media/susti-card.bbcb6a63e0661d37331c.jpg",
-    "static/media/bruce-mars.jpg": "/susti-react/static/media/bruce-mars.8a606c4a6dab54c9ceff.jpg",
-    "static/media/team-5.jpg": "/susti-react/static/media/team-5.d59ab7b9f95f1169cf83.jpg",
-    "static/media/ivana-square.jpg": "/susti-react/static/media/ivana-square.f7bc23b269d1d2509c82.jpg",
-    "static/media/ivana-squares.jpg": "/susti-react/static/media/ivana-squares.3c555b856b04c2ab921b.jpg",
+    "static/media/nick.jpg": "/susti-react/static/media/nick.967f3808ffcb5a4270f1.jpg",
+    "static/media/martin.jpg": "/susti-react/static/media/martin.b4651477921844becbe3.jpg",
+    "static/media/loise.jpg": "/susti-react/static/media/loise.96b61e6adb4c102ed1f8.jpg",
     "index.html": "/susti-react/index.html",
     "static/media/martin.svg": "/susti-react/static/media/martin.2a6d92fc5fc44ba45bb826c04ba95dd5.svg",
-    "main.e394bf64.js.map": "/susti-react/static/js/main.e394bf64.js.map"
+    "main.5051aff9.js.map": "/susti-react/static/js/main.5051aff9.js.map"
   },
   "entrypoints": [
-    "static/js/main.e394bf64.js"
+    "static/js/main.5051aff9.js"
   ]
 }

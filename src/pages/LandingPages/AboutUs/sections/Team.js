@@ -25,10 +25,11 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team1 from "assets/images/team-5.jpg";
-import team2 from "assets/images/bruce-mars.jpg";
-import team3 from "assets/images/ivana-squares.jpg";
-import team4 from "assets/images/ivana-square.jpg";
+import nick from "assets/images/nick.jpg";
+import loise from "assets/images/loise.jpg";
+import shantel from "assets/images/shantel.jpg";
+import koech from "assets/images/koech.jpg";
+import martin from "assets/images/martin.jpg";
 
 function Team() {
   return (
@@ -57,40 +58,50 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team1}
-                name="Emma Roberts"
-                position={{ color: "info", label: "UI Designer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={nick}
+                name="Nicholas Ogola, MSc,CEM, PMP"
+                position={{ color: "info", label: "Director, Susti Energy Consulting Limited" }}
+                description="Nicholas Ogola is a certified energy and engineering professional with extensive experience in sustainable solutions, leading operations, efficiency programs, and strategic projects that help organizations reduce costs, improve resource management, and transition toward cleaner energy across Africa."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team2}
-                name="William Pearce"
-                position={{ color: "info", label: "Boss" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={shantel}
+                name="Shantel Magombe Munga"
+                position={{ color: "info", label: "Electrical & Energy Engineer" }}
+                description="Shantel Munga is an Electrical and Energy Engineer with practical experience in electrical maintenance, hotel engineering operations, energy monitoring, and implementing conservation measures—delivering 10–18% savings—while leading system upgrades, analyzing energy data, and driving sustainability-focused efficiency improvements across commercial facilities."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team3}
-                name="Ivana Flow"
-                position={{ color: "info", label: "Athlete" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={loise}
+                name="Loise Anono"
+                position={{ color: "info", label: "Energy Engineer & Technical Consultant" }}
+                description="Loise is a multidisciplinary Energy Engineer with over four years of experience leading 20+ energy audits, implementing advanced M&V protocols, developing carbon reduction strategies for 25+ facilities, and deploying data-driven, technology-enabled sustainability solutions—including IoT monitoring, AI/ML reporting, and innovative ECMs—while actively advancing clean energy adoption and pursuing Certified Energy Manager accreditation."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team4}
-                name="Marquez Garcia"
-                position={{ color: "info", label: "JS Developer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={koech}
+                name="Irvine Koech"
+                position={{ color: "info", label: "Mechanical Engineer" }}
+                description="Irvine Koech is a Mechanical Engineer with extensive experience supporting and delivering 60+ investment-grade energy audits, leading ISO 50002–compliant assessments, and advancing clean energy initiatives—from hybrid solar PV feasibility studies to e-mobility capacity-building—while applying strong analytical and technical expertise to help organizations reduce energy costs, optimize systems, and transition toward a low-carbon future."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                image={martin}
+                name="Martin Ochieng"
+                position={{ color: "info", label: "Lead Engineer" }}
+                description="Martin Ochieng is a seasoned Electrical and Software Engineer with six years of experience conducting 100+ energy audits, leading Safaricom’s ISO50001 certification as Lead Internal Energy Auditor, and integrating engineering expertise with cloud-native data analytics, real-time monitoring, and automation to deliver high-impact, technology-driven solutions that enhance energy performance, reduce costs, and accelerate sustainable transitions."
               />
             </MKBox>
           </Grid>

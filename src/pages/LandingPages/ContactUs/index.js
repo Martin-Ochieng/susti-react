@@ -8,13 +8,14 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
 // @mui material components
 import Grid from "@mui/material/Grid";
+import { useState } from "react";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -34,12 +35,45 @@ import footerRoutes from "footer.routes";
 import bgImage from "assets/images/illustrations/susti_image_6.png";
 
 function ContactUs() {
+  // Form state
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState(""); // success/error feedback
+
+  // Submit handler
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const res = await fetch("/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      if (res.ok) {
+        setStatus("Message sent successfully!");
+        setName("");
+        setEmail("");
+        setMessage("");
+      } else {
+        setStatus("Failed to send message. Please try again later.");
+      }
+    } catch (err) {
+      console.error(err);
+      setStatus("Error sending message. Please try again later.");
+    }
+  };
+
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
         <DefaultNavbar routes={routes} sticky />
       </MKBox>
+
       <Grid container spacing={3} alignItems="center">
+        {/* Left image */}
         <Grid item xs={12} lg={6}>
           <MKBox
             display={{ xs: "none", lg: "flex" }}
@@ -51,6 +85,8 @@ function ContactUs() {
             sx={{ backgroundImage: `url(${bgImage})` }}
           />
         </Grid>
+
+        {/* Form */}
         <Grid
           item
           xs={12}
@@ -85,12 +121,15 @@ function ContactUs() {
                 Contact us
               </MKTypography>
             </MKBox>
+
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
                 For further questions, including partnership opportunities, please email
-                karen@susti.com or contact using our contact form.
+                sustienergyslns@gmail.com or contact using our contact form.
               </MKTypography>
-              <MKBox width="100%" component="form" method="post" autoComplete="off">
+
+              {/* Form */}
+              <MKBox width="100%" component="form" onSubmit={handleSubmit} autoComplete="off">
                 <Grid container spacing={3}>
                   <Grid item xs={12} md={6}>
                     <MKInput
@@ -98,6 +137,9 @@ function ContactUs() {
                       label="Full Name"
                       InputLabelProps={{ shrink: true }}
                       fullWidth
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      required
                     />
                   </Grid>
                   <Grid item xs={12} md={6}>
@@ -107,6 +149,9 @@ function ContactUs() {
                       label="Email"
                       InputLabelProps={{ shrink: true }}
                       fullWidth
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
                     />
                   </Grid>
                   <Grid item xs={12}>
@@ -118,19 +163,32 @@ function ContactUs() {
                       multiline
                       fullWidth
                       rows={6}
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                      required
                     />
                   </Grid>
                 </Grid>
+
+                {/* Submit button */}
                 <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
                   <MKButton type="submit" variant="gradient" color="info">
                     Send Message
                   </MKButton>
                 </Grid>
+
+                {/* Status feedback */}
+                {status && (
+                  <MKTypography variant="body2" color="info" mt={2}>
+                    {status}
+                  </MKTypography>
+                )}
               </MKBox>
             </MKBox>
           </MKBox>
         </Grid>
       </Grid>
+
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>

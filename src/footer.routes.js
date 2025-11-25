@@ -1,6 +1,7 @@
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
+
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // Material Kit 2 React components
@@ -34,6 +35,13 @@ export default {
     {
       name: "company",
       items: [{ name: "about us", href: "/pages/landing-pages/about-us" }],
+    },
+    {
+      name: "contact us",
+      items: [
+        { name: "+254 716 433 156", href: "" },
+        { name: "sustienergyslns@gmail.com", href: "" },
+      ],
     },
   ],
   copyright: (

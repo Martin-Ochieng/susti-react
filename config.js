@@ -1,10 +1,13 @@
 /* eslint-env node */
+const dotenv = require("dotenv");
 
-import dotenv from "dotenv";
-dotenv.config(); // Load .env variables
+// Load environment variables from .env
+dotenv.config();
 
-export const emailConfig = {
+const emailConfig = {
   user: process.env.EMAIL_USER,
   pass: process.env.EMAIL_PASSWORD,
   to: process.env.EMAIL_TO || "sustienergyslns@gmail.com",
 };
+
+module.exports = { emailConfig };

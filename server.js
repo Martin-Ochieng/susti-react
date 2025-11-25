@@ -1,19 +1,14 @@
 /* eslint-env node */
-import express from "express";
-import nodemailer from "nodemailer";
-import path from "path";
-import { fileURLToPath } from "url";
-import { emailConfig } from "./config.js"; // secure via env vars
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
+const express = require("express");
+const nodemailer = require("nodemailer");
+const path = require("path");
+const { emailConfig } = require("./config"); // CommonJS
 const app = express();
 
 // Middleware
 app.use(express.json());
 
-// Contact form endpoint
+// Contact endpoint
 app.post("/contact", async (req, res) => {
   const { name, email, message } = req.body;
   if (!name || !email || !message) {
@@ -38,7 +33,7 @@ app.post("/contact", async (req, res) => {
 
     return res.json({ status: "ok", message: "Message sent successfully!" });
   } catch (error) {
-    console.error(JSON.stringify({ error: error.message, stack: error.stack }));
+    console.error(error);
     return res.status(500).json({ status: "error", message: "Failed to send message." });
   }
 });

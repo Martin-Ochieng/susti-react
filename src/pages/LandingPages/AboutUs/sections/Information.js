@@ -34,27 +34,18 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="public"
-                    title="Consultancy Services"
-                    description="Expert guidance in energy and water management"
+                    icon="3p"
+                    title="Energy Management & Efficiency"
+                    description="Optimize your facility's energy consumption and reduce operational costs through comprehensive audits, strategic planning, and targeted efficiency measures."
                   />
                 </MKBox>
               </Grid>
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="payments"
-                    title="Certified Audits"
-                    description="International-standard energy and water audits"
-                  />
-                </MKBox>
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <MKBox mb={{ xs: 5, md: 0 }}>
-                  <DefaultInfoCard
-                    icon="apps"
-                    title="Smart Monitoring"
-                    description="Real-time tracking of energy use for better visibility"
+                    icon="3p"
+                    title="MEP Engineering & Management"
+                    description="Optimize building functionality and reliability through integrated solutions spanning Mechanical Engineering (HVAC design and optimization, VRF/VRV systems, ventilation, hot water systems, pumps, kitchen and laundry systems, and energy-efficient equipment selection) and Electrical Engineering (electrical system design, power distribution, lighting systems, backup power systems, and solar PV integration)."
                   />
                 </MKBox>
               </Grid>
@@ -62,8 +53,26 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="3p"
-                    title="Capacity Building"
-                    description="Specialized training in efficiency and conservation"
+                    title="Renewable Energy"
+                    description="Transition to clean, sustainable power sources with custom-designed solar, wind, and hybrid energy solutions tailored to your organization's needs."
+                  />
+                </MKBox>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <MKBox mb={{ xs: 5, md: 0 }}>
+                  <DefaultInfoCard
+                    icon="3p"
+                    title="Smart Energy & Water Monitoring"
+                    description="Gain real-time visibility into your resource consumption using advanced IoT-driven analytics and performance dashboards."
+                  />
+                </MKBox>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <MKBox mb={{ xs: 5, md: 0 }}>
+                  <DefaultInfoCard
+                    icon="3p"
+                    title="Sustainability & Capacity Building"
+                    description="Empower your workforce and align with global ESG standards through tailored training programs, green team initiatives, and strategic sustainability roadmaps."
                   />
                 </MKBox>
               </Grid>

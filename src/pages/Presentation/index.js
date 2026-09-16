@@ -75,6 +75,16 @@ function Presentation() {
             >
               Efficient Solutions for a Sustainable World.
             </MKTypography>
+
+            <MKTypography
+              variant="body1"
+              color="white"
+              textAlign="center"
+              px={{ xs: 6, lg: 12 }}
+              mt={1}
+            >
+              Energy | Engineering | Sustainability
+            </MKTypography>
           </Grid>
         </Container>
       </MKBox>

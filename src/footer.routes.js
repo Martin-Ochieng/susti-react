@@ -39,8 +39,9 @@ export default {
     {
       name: "contact us",
       items: [
-        { name: "+254 716 433 156", href: "" },
-        { name: "sustienergyslns@gmail.com", href: "" },
+        { name: "+254757407260", href: "" },
+        { name: "info@susti.co.ke", href: "" },
+        { name: "Kitengela – Along Nairobi, Namanga Road", href: "" },
       ],
     },
   ],

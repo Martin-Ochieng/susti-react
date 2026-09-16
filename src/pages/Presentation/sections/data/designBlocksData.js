@@ -18,153 +18,196 @@ const imagesPrefix = `${process.env.PUBLIC_URL}/assets/images/offering`;
 
 export default [
   {
-    title: "Energy Consultancy",
+    title: "Energy Management & Efficiency",
     description:
-      "We provide tailored consultancy services to help businesses design and implement effective energy management strategies. From conducting energy needs assessments to developing action plans, we ensure our clients achieve energy efficiency and cost savings while aligning with global sustainability standards.",
+      "We help organizations understand, manage and optimize their energy use through data-driven assessments, energy management strategies and efficiency solutions. Our approach focuses on reducing energy costs, improving performance, supporting regulatory compliance and sustaining energy savings over time.",
     items: [
       {
-        image: `${imagesPrefix}/energy_assessment.jpg`,
-        name: "Energy Needs Assessment",
+        image: `${imagesPrefix}/energy-audits.jpeg`,
+        name: "Energy Audits ",
         pro: false,
       },
       {
         image: `${imagesPrefix}/energy_strategy.jpg`,
-        name: "Energy Strategy Development",
+        name: "Energy Efficiency Consultancy",
         pro: false,
       },
       {
         image: `${imagesPrefix}/energy_policy.png`,
-        name: "Energy Policy Formulation",
+        name: "Energy Management Committee support",
         pro: false,
       },
       {
         image: `${imagesPrefix}/energy_management_system.jpg`,
-        name: "Energy Management System (EMS) Design",
+        name: "Energy Management Systems",
         pro: false,
       },
       {
         image: `${imagesPrefix}/energy_benchmarking.png`,
-        name: "Energy Benchmarking",
+        name: "Energy Benchmarking ",
         pro: false,
       },
       {
         image: `${imagesPrefix}/energy_regulatory_compliance.png`,
-        name: "Regulatory Compliance Support",
+        name: "Regulatory Compliance ",
         pro: false,
       },
       {
         image: `${imagesPrefix}/energy_performance_reporting.png`,
-        name: "Energy Performance Reporting",
+        name: "Energy Performance Management",
         pro: false,
       },
     ],
   },
   {
-    title: "Water Consultancy",
+    title: "MEP Engineering & Management",
     description:
-      "Our water management solutions focus on optimizing water usage, reducing wastage, and enhancing water conservation practices. We help businesses design and implement strategies that ensure efficient water resource utilization and compliance with environmental regulations",
+      "We provide integrated Mechanical, Electrical and Plumbing (MEP) engineering and management solutions that balance performance, cost, efficiency and reliability. From design review and value engineering to procurement, project coordination and commissioning, we help clients deliver building systems that perform effectively throughout their lifecycle.",
     items: [
       {
-        image: `${imagesPrefix}/water_assesment_and_compliance.png`,
-        name: "Water Assessment & Compliance",
+        image: `${imagesPrefix}/mep-engineering.jpeg`,
+        name: "MEP Engineering",
         pro: false,
       },
       {
-        image: `${imagesPrefix}/water_conservation.png`,
-        name: "Conservation & Efficiency Planning",
+        image: `${imagesPrefix}/design-review.jpeg`,
+        name: "Design Review",
         pro: false,
       },
       {
-        image: `${imagesPrefix}/alternative_water_sources.png`,
-        name: "Alternative Water Solutions",
+        image: `${imagesPrefix}/value-engineering.jpeg`,
+        name: "Value Engineering",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/boq-review.jpeg`,
+        name: "BOQ Review",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/project-management.jpeg`,
+        name: "Project Management",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/site-supervision.jpeg`,
+        name: "Site Supervision",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/commissioning.jpeg`,
+        name: "Commissioning",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/procurement.jpeg`,
+        name: "Procurement & Technical Support",
         pro: false,
       },
     ],
   },
   {
-    title: "Energy Audits",
+    title: "Renewable Energy",
     description:
-      "We conduct detailed energy audits that adhere to the set global standards as well as the Energy and Petroleum Regulatory Authority (EPRA) standards. These audits help businesses identify energy inefficiencies, develop action plans to address them, and achieve significant cost and energy savings. Our audits are thorough, actionable, and aligned with best practices.",
+      "We help our clients transition to cleaner and more reliable energy through appropriately designed renewable energy solutions. From feasibility and system design to implementation and performance monitoring, we develop solutions that reduce energy costs, improve energy resilience and support the transition to a low-carbon future.",
     items: [
       {
-        image: `${imagesPrefix}/energy_audit.png`,
-        name: "Energy Audit & Diagnostics",
+        image: `${imagesPrefix}/solar-pv.jpeg`,
+        name: "Solar PV",
         pro: false,
       },
       {
-        image: `${imagesPrefix}/data_analytics.png`,
-        name: "Data & Performance Analysis",
+        image: `${imagesPrefix}/solar-hybrid.jpeg`,
+        name: "Solar Hybrid Systems",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/solar-thermal.jpeg`,
+        name: "Solar Thermal",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/heat-pump.jpeg`,
+        name: "Heat Pumps",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/feasibility-studies.jpeg`,
+        name: "Renewable Energy Feasibility Studies",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/renewable-energy.jpeg`,
+        name: "Renewable Energy Integration",
+        pro: false,
+      },
+    ],
+  },
+  {
+    title: "Smart Energy & Water Monitoring",
+    description:
+      "We provide smart monitoring solutions that give organizations real-time visibility into their energy and water consumption. By turning operational data into actionable insights, we help clients identify inefficiencies, optimize performance, control costs and measure the impact of efficiency interventions.",
+    items: [
+      {
+        image: `${imagesPrefix}/smart-metering.jpeg`,
+        name: "Smart Metering",
+        pro: false,
+      },
+      {
+        image: `${imagesPrefix}/metering.jpeg`,
+        name: "Real-Time Energy Monitoring",
         pro: false,
       },
       {
         image: `${imagesPrefix}/implementation_support.png`,
-        name: "Action Planning & Implementation Support",
+        name: "Energy Analytics",
         pro: false,
       },
-    ],
-  },
-  {
-    title: "Water Audits",
-    description:
-      "Our water audits evaluate water usage patterns, identify areas of wastage, and recommend solutions for optimization. By conducting these audits, we enable businesses to reduce water consumption, lower operational costs, and contribute to environmental sustainability.",
-    items: [
       {
-        image: `${imagesPrefix}/water_audit.png`,
-        name: "Water Audits & Diagnostics",
+        image: `${imagesPrefix}/performance-dashboards.jpeg`,
+        name: "Performance Dashboards",
         pro: false,
       },
       {
         image: `${imagesPrefix}/data_analytics.png`,
-        name: "Data & Performance Analysis",
+        name: "Water Monitoring",
         pro: false,
       },
       {
         image: `${imagesPrefix}/implementation_support.png`,
-        name: "Action Planning & Implementation Support",
+        name: "Measurement & Verification",
         pro: false,
       },
     ],
   },
   {
-    title: "Real-Time Monitoring",
+    title: "Sustainability & Capacity Building",
     description:
-      "Visibility is key to effective energy management. We offer advanced real-time energy consumption monitoring solutions that provide businesses with actionable insights into their energy usage. With these tools, clients can track consumption patterns, identify inefficiencies, and make data-driven decisions to optimize performance.",
+      "We help organizations translate sustainability goals into practical, measurable action. Our advisory services support clients in strengthening resource efficiency, reducing environmental impact, managing carbon and embedding sustainability into their strategies, operations and decision-making.",
     items: [
       {
         image: `${imagesPrefix}/smart_metering.png`,
-        name: "Smart Metering & Monitoring",
+        name: "ESG & Sustainability Advisory",
         pro: false,
       },
       {
         image: `${imagesPrefix}/data_visualization.png`,
-        name: "Data Visualization & Control",
+        name: "Carbon & Energy Management",
         pro: false,
       },
       {
-        image: `${imagesPrefix}/analytics_and_performance.png`,
-        name: "Analytics & Performance Insights",
-        pro: false,
-      },
-    ],
-  },
-  {
-    title: "Training in Energy Efficiency and Conservation",
-    description:
-      "Knowledge is power, and we are committed to equipping our clients and their teams with the skills needed to drive sustainability. Our training programs focus on energy efficiency, conservation practices, and the adoption of renewable energy solutions. Designed for individuals and organizations, these programs help build the capacity needed to achieve long-term energy management goals.",
-    items: [
-      {
-        image: `${imagesPrefix}/staff_awareness_training.png`,
-        name: "Staff & Organizational Awareness",
+        image: `${imagesPrefix}/sustainability-strategy.jpeg`,
+        name: "Sustainability Strategy",
         pro: false,
       },
       {
-        image: `${imagesPrefix}/technical_training.png`,
-        name: "Technical & System-Specific Training",
+        image: `${imagesPrefix}/energy-awareness.jpeg`,
+        name: "Staff Energy Awareness",
         pro: false,
       },
       {
-        image: `${imagesPrefix}/iso_training.png`,
-        name: "Standards & Professional Capacity Building",
+        image: `${imagesPrefix}/energy-management-training.jpeg`,
+        name: "Energy Management Training for all staff levels",
         pro: false,
       },
     ],

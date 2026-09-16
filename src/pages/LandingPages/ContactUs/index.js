@@ -32,7 +32,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/illustrations/susti_image_6.png";
+import bgImage from "assets/images/illustrations/susti-logo-image.jpeg";
 
 function ContactUs() {
   // Form state

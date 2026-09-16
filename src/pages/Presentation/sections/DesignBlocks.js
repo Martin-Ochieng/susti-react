@@ -74,8 +74,9 @@ function DesignBlocks() {
             What we do
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            We offer expert audits, consultancy, monitoring, and training to help businesses manage
-            energy and water efficiently.
+            We provide practical energy, engineering, water and sustainability solutions that help
+            organizations reduce costs, improve performance, optimize resources and achieve a more
+            sustainable future.
           </MKTypography>
         </Grid>
       </Container>

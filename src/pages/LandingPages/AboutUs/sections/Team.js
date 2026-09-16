@@ -30,6 +30,8 @@ import loise from "assets/images/loise.jpg";
 import shantel from "assets/images/shantel.jpg";
 import koech from "assets/images/koech.jpg";
 import martin from "assets/images/martin.jpg";
+import monica from "assets/images/monica.jpg";
+import karen from "assets/images/karen.jpg";
 
 function Team() {
   return (
@@ -61,6 +63,27 @@ function Team() {
               />
             </MKBox>
           </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+              <HorizontalTeamCard
+                image={karen}
+                name="Karen Thuranira"
+                position={{ color: "info", label: "Director, Business Development" }}
+                description="Karen is a business development professional with experience in business growth strategies and strategic partnerships. At Susti Energy, she leads business development, client engagement and strategic growth, helping the organization to identify practical opportunities to improve energy performance and sustainability. She is passionate about connecting people, ideas and solutions that drive positive impact."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1}>
+              <HorizontalTeamCard
+                image={monica}
+                name="Monica Ngage, CPA"
+                position={{ color: "info", label: "Finance and Accounting Consultant" }}
+                description="Monica is a finance and accounting professional with experience spanning finance, administration and project management. As Susti's Finance & Accounting Consultant, she supports sound financial management, planning and compliance, helping strengthen the financial systems that underpin the company's growth and operations."
+              />
+            </MKBox>
+          </Grid>
+
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard

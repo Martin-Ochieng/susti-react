@@ -27,8 +27,8 @@ import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 // Images
-import bgFront from "assets/images/susti-card.jpg";
-import bgBack from "assets/images/susti-card.jpg";
+import bgFront from "assets/images/susti-logo-2.jpeg";
+import bgBack from "assets/images/susti-logo-2.jpeg";
 
 function Information() {
   return (
@@ -52,7 +52,7 @@ function Information() {
               <RotatingCardBack
                 image={bgBack}
                 title="Mission Statement"
-                description="We empower people and organizations with energy and water efficiency solutions that reduce costs, cut carbon, and support sustainable development."
+                description="We empower people and organizations to use energy and resources more efficiently through practical engineering and sustainability solutions that reduce costs, improve performance, cut carbon and support sustainable development."
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
@@ -66,15 +66,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="Mission to People"
-                  description="We are committed to empowering our team with the skills and expertise needed to deliver exceptional energy and water management solutions, fostering growth, innovation, and a culture of excellence."
+                  title="Our Commitment to People"
+                  description="We invest in our people by building the skills, knowledge and expertise needed to deliver practical, innovative and high-quality energy, engineering, water and sustainability solutions, while fostering a culture of growth, collaboration and excellence."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="flip_to_front"
-                  title="Mission to Clients"
-                  description="To deliver customized energy and water efficiency solutions that reduce costs, minimize carbon footprints, and enhance sustainability, ensuring value and long-term success for every client."
+                  title="Our Commitment to Clients"
+                  description="We deliver practical, tailored energy, engineering, water and sustainability solutions that reduce costs, improve performance, increase resource efficiency and reduce carbon, creating lasting value for our clients."
                 />
               </Grid>
             </Grid>
@@ -82,15 +82,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="price_change"
-                  title="Mission to the Environment"
-                  description="We are dedicated to championing environmental sustainability by embedding eco-friendly practices in all operations, actively contributing to a healthier planet for future generations."
+                  title="Our Commitment to the Environment"
+                  description="We are committed to protecting the environment by promoting energy and resource efficiency, renewable energy and sustainable engineering practices that reduce environmental impact and contribute to a healthier, more resilient planet."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="devices"
-                  title="Mission to the Community"
-                  description="To promote sustainable socio-economic development by supporting initiatives that uplift communities, drive innovation, and create opportunities for a brighter, more sustainable future."
+                  title="Our Commitment to the Community"
+                  description="We contribute to sustainable socio-economic development by sharing knowledge, supporting innovation, creating opportunities and empowering communities to adopt practical solutions that improve livelihoods and build a more sustainable future."
                 />
               </Grid>
             </Grid>

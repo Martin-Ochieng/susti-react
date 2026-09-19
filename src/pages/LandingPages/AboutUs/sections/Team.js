@@ -32,6 +32,7 @@ import koech from "assets/images/koech.jpg";
 import martin from "assets/images/martin.jpg";
 import monica from "assets/images/monica.jpg";
 import karen from "assets/images/karen.jpg";
+import dancan from "assets/images/dancan.jpg";
 
 function Team() {
   return (
@@ -121,6 +122,16 @@ function Team() {
                 name="Martin Ochieng"
                 position={{ color: "info", label: "Lead Engineer" }}
                 description="Martin Ochieng is a seasoned Electrical and Software Engineer with six years of experience conducting 100+ energy audits, leading Safaricom’s ISO50001 certification as Lead Internal Energy Auditor, and integrating engineering expertise with cloud-native data analytics, real-time monitoring, and automation to deliver high-impact, technology-driven solutions that enhance energy performance, reduce costs, and accelerate sustainable transitions."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                image={dancan}
+                name="Eng. Dancan Omondi Oduor"
+                position={{ color: "info", label: "Mechanical Engineer" }}
+                description="Eng. Dancan Omondi Oduor is a Mechanical Engineer with over 8 years of experience in mechanical engineering, MEP design, energy management, manufacturing, HVAC, and project management. He brings expertise in MEP engineering and BIM/CAD design, energy auditing, plant and production systems, and engineering project supervision. At Susti Energy Consulting, he supports the delivery of practical, energy-efficient mechanical and MEP solutions for clients across different sectors."
               />
             </MKBox>
           </Grid>
